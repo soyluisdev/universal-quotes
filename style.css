@@ -7,7 +7,7 @@ html {
 
 body {
     margin: 0;
-    min-height: 100vh;
+    min-height: 98vh;
     background-color: #e4e4e4;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='80' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     color:#000;
@@ -19,7 +19,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    min-height: 100vh;
     }
 
 #quotes-by {
@@ -27,7 +26,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     color: rgba(255,255,255,.9);
-    justify-content: right;
+    justify-content: left;
     text-align: left;
     font-size: .7rem;
     font-family: 'Oswald', sans-serif;
@@ -35,6 +34,7 @@ body {
     font-weight: 100;
     position: absolute;
     top: 1px;
+    padding-left: 5%;
 }
 
 h1 {
@@ -140,7 +140,7 @@ footer {
     background-image: linear-gradient(to left, rgb(67, 55, 114), rgb(69, 99, 161));
     width: 100vw; display: flex; flex-wrap: wrap; align-self: flex-end;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: .8rem;
     font-weight: bold;
     color:rgba(255,255,255,1);
     font-weight: 100;
