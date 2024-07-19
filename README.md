@@ -29,4 +29,6 @@ Twitter Integration: Twitter API for sharing quotes
 ## Contributing
 Contributions are welcome! If you have suggestions for new features or improvements, please open an issue or submit a pull request on my GitHub repository.
 
+<img src="/universal-quotes_0.png">
 <img src="/universal-quotes_1.png">
+<img src="/universal-quotes_1_1.png">
